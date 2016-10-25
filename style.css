@@ -205,6 +205,18 @@ position:fixed;
     margin-bottom: 12px;
 }
 
+.logo {
+    display: block;
+    height: 128px;
+}
+
+#header {
+    height: 100%;
+}
+
+#mainbanner, #mobilebanner {
+     max-height: 100%;
+}
 
 @media only screen and (max-width: 1080px){
     #content {
