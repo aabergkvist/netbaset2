@@ -256,4 +256,11 @@ position:fixed;
         letter-spacing: .1em;
         font-size: 18px;
     }
+    
+    td.checkboxcol {
+        text-align: left;
+    }
+    #content{
+        padding: 12px;
+    }
 }
