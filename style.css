@@ -1,1 +1,211 @@
 
+@import url('https://fonts.googleapis.com/css?family=open+sans:300,400,600,700,800&subset=cyrillic-ext,latin-ext');a {
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+#mobilebanner {
+}
+
+#mainbanner {
+background-image: none;
+}
+
+#main {
+}
+
+#footer {
+}
+
+body {
+background-color: #eee;
+max-width: 1200px;
+margin: 0 auto;
+font-family: 'open sans', sans-serif;
+background-image: none;
+padding-top: 128px;
+padding-bottom: 128px;
+}
+
+#content {
+background-color: #fff;
+min-height: 250px;
+padding: 24px;
+box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+border-radius: 3px;
+margin: 0 auto;
+margin: 0 auto;
+width: 70%;
+}
+
+#header {
+}
+
+.qheader {
+display: none;
+}
+
+.pbar {
+}
+
+.pbarinner {
+}
+
+.netigatetextarea {
+width: 100%;
+max-width: 100%;
+height: 140px;
+border: 2px solid black;
+border-radius: 6px;
+font-size: 24px;
+}
+
+textarea.netigatetextarea:focus {
+outline: none;
+border-color: #d81600;
+transition: 250ms all;
+}
+
+.netigatetexbox {
+width: 100%;
+max-width: 100%;
+border: 2px solid black;
+border-radius: 6px;
+font-size: 24px;
+padding: 12px;
+box-sizing: border-box;
+}
+
+.qdescription {
+display: none;
+}
+
+.mheader {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0px;
+    letter-spacing: 0.05em;
+}
+
+.qoption {
+letter-spacing: .1em;
+font-size: 24px;
+}
+
+.footertext {
+}
+
+.footlink {
+}
+
+#progressbardiv {
+background-color: red;
+}
+
+#warning {
+}
+
+.NetigateBackButton {
+float: left;
+font-size: 0;
+background-color: transparent;
+height: 50px;
+width: 50px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+border-width: 0;
+background-image: url(../cssgenerator/images/buttonstyles2/simple_red-l.png);
+}
+
+.NetigateNextButton {
+float: right;
+font-size: 0;
+background-color: transparent;
+height: 50px;
+width: 50px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+border-width: 0;
+background-image: url(../cssgenerator/images/buttonstyles2/simple_red-r.png);
+}
+
+.NetigateEndButton {
+float: right;
+font-size: 0;
+background-color: transparent;
+height: 50px;
+width: 50px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+border-width: 0;
+background-image: url(../cssgenerator/images/buttonstyles2/simple_red-r.png);
+}
+
+.NetigateToSurveyButton {
+float: right;
+font-size: 0;
+background-color: transparent;
+height: 50px;
+width: 50px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
+border-width: 0;
+background-image: url(../cssgenerator/images/buttonstyles2/simple_red-r.png);
+}
+
+select {
+margin: 3px 0 3px 0;
+background-color: white;
+min-width: 200px;
+font-size: 18px;
+letter-spacing: 0.1rem;
+}
+
+td.matrixcollegend {
+padding: 12px;
+}
+
+div#questionslider {
+width: 100% !important;
+border: 2px solid black;
+}
+
+.slideroption {
+padding: 12px 0px;
+}
+
+td.slideroption>span {
+font-size: 32px;
+font-weight: bold;
+}
+
+input.netigatetexbox:focus {
+outline: none;
+border-color: #d81600;
+transition: 250ms all;
+}
+
+.one-half.firstcol {
+    margin-bottom: 12px;
+}
+
+div#warning_div{
+position:fixed;
+}
+
+.questionContainer {
+    margin-bottom: 12px;
+}
+
+@media only screen and (max-width: 1080px)
+#content {
+    width: inherit !important;
+}
