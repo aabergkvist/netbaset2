@@ -206,7 +206,7 @@ position:fixed;
 }
 
 
-@media only screen and (max-width: 1080px)
+@media only screen and (max-width: 1080px){
 #content {
     width: 90%;
 }
@@ -218,4 +218,4 @@ position:fixed;
 tr>td.radiocol:nth-child(2){
     text-align:left;
 }
-
+}
