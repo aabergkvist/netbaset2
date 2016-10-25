@@ -1,0 +1,679 @@
+body{
+	margin:0px;
+}
+
+.logo{
+	background:#e0e0e0;
+	padding:20px 0px;
+
+	margin-bottom: 40px;
+}
+
+img#mainbanner{
+	width: 200px;
+	max-width: 100px;
+}
+
+.questionHeader{
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+
+.questinoHeader .qheader{
+	font-weight: 600;
+}
+
+.questionHeader .qdescription{
+	color: rgba(0,0,0,.3);
+}
+
+.questionContainer{
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#content {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+#header {
+	text-align: center;
+}
+
+.one-half {
+	float: left;
+}
+
+.one-half {
+	float: right;
+}
+
+#questionContainer {
+	height: 400px;
+	padding: 20px 0px;
+}
+
+#questionContainer:not(:last-of-type){	
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#main {
+	margin: 0 auto;
+	padding: 40px;
+	background-color: #eee;
+}
+
+
+
+#content .one-half{
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	margin: 0px;
+}
+
+#content .questionContainer:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#content .questionContainer > div > textarea{
+	width: 100%;
+}
+
+.questionContainer select{
+	width: 100%;
+}
+
+#buttonholder{
+	padding: 40px 0px;
+	text-align: center;
+}
+
+#rightbutton{
+	width: auto;
+}
+
+#buttonholder input{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footertext{
+	margin:0 5px;
+}
+
+
+/* Text area and text box - bootstrap-like  */
+
+.netigatetextarea,
+.netigatetexbox {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.netigatetextarea,
+.netigatetexbox {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);	
+}
+
+/* netigate dropdown - bootstrap-like */
+
+.netigatedropdown{
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+/* netigate button  */
+
+input[type='submit']{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}
+
+input[type='submit']:hover{
+	color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+/* Column Classes
+    Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
+--------------------------------------------- */
+
+.five-sixths,
+.four-sixths,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fourths,
+.three-sixths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+	float: left;
+	margin-left: 2.564102564102564%;
+}
+
+.one-half,
+.three-sixths,
+.two-fourths {
+	width: 48.717948717948715%;
+}
+
+.one-third,
+.two-sixths {
+	width: 31.623931623931625%;
+}
+
+.four-sixths,
+.two-thirds {
+	width: 65.81196581196582%;
+}
+
+.one-fourth {
+	width: 23.076923076923077%;
+}
+
+.three-fourths {
+	width: 74.35897435897436%;
+}
+
+.one-sixth {
+	width: 14.52991452991453%;
+}
+
+.five-sixths {
+	width: 82.90598290598291%;
+}
+
+.first {
+	clear: both;
+	margin-left: 0;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) { 
+	
+	.five-sixths,
+	.four-fifths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-fifth,
+	.one-sixth,
+	.one-third,
+	.three-fifths,
+	.three-fourths,
+	.three-sixths,
+	.two-fifths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+	.one-half .firstcol {
+		margin-bottom: 17px;
+	}
+
+	.one-half {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.firstcol{
+		text-align: center;
+	}
+
+	.mheader {
+		font-size: 16px;
+	}
+
+	.qheader {
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.qdescription{
+		text-align: center;
+		margin: 0 auto;
+		float: left;
+		width: 100%;
+	}
+	
+	.netigatetextarea{
+		max-width: 100%;
+	}
+	#content{
+		width: calc(100% - 20px);
+	}
+	
+	.checkboxtable{
+		width:100%;
+	}
+	#main{
+		width:100%;
+		padding:0px;
+		border:none;
+		border-radius: 0px;
+		margin-top:0px;
+	}
+	
+	#form1{
+		overflow-x:hidden;
+		width:100%;
+	}
+	
+	html, body{
+		width: 100%;
+	}
+	#footer{
+		margin-bottom: 0px;
+		padding-bottom:15px;
+	}
+	.hiddeninput{
+		width:0px;
+		height:0px;
+		padding:0px;
+		border:none;
+		margin:0px;
+	}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	
+	.five-sixths,
+	.four-fifths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-fifth,
+	.one-sixth,
+	.one-third,
+	.three-fifths,
+	.three-fourths,
+	.three-sixths,
+	.two-fifths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+	.one-half .firstcol {
+		margin-bottom: 17px;
+	}
+
+	.one-half {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.firstcol{
+		text-align: center;
+	}
+
+	.mheader {
+		font-size: 16px;
+	}
+
+	.qheader {
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.qdescription{
+		text-align: center;
+		margin: 0 auto;
+		float: left;
+		width: 100%;
+	}
+	
+	.netigatetextarea{
+		max-width: 100%;
+	}
+	#content{
+		width: calc(100% - 20px);
+	}
+	
+	.checkboxtable{
+		width:100%;
+	}
+	#main{
+		width:100%;
+		padding:0px;
+		border:none;
+		border-radius: 0px;
+		margin-top:0px;
+	}
+	
+	#form1{
+		overflow-x:hidden;
+		width:100%;
+	}
+	
+	html, body{
+		width: 100%;
+	}
+	#footer{
+		margin-bottom: 0px;
+		padding-bottom:15px;
+	}
+	.hiddeninput{
+		width:0px;
+		height:0px;
+		padding:0px;
+		border:none;
+		margin:0px;
+	}
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+	
+	.five-sixths,
+	.four-fifths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-fifth,
+	.one-sixth,
+	.one-third,
+	.three-fifths,
+	.three-fourths,
+	.three-sixths,
+	.two-fifths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+	.one-half .firstcol {
+		margin-bottom: 17px;
+	}
+
+	.one-half {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.firstcol{
+		text-align: center;
+	}
+
+	.mheader {
+		font-size: 16px;
+	}
+
+	.qheader {
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.qdescription{
+		text-align: center;
+		margin: 0 auto;
+		float: left;
+		width: 100%;
+	}
+	
+	.netigatetextarea{
+		max-width: 100%;
+	}
+	#content{
+		width: calc(100% - 20px);
+	}
+	
+	.checkboxtable{
+		width:100%;
+	}
+	#main{
+		width:100%;
+		padding:0px;
+		border:none;
+		border-radius: 0px;
+		margin-top:0px;
+	}
+	
+	#form1{
+		overflow-x:hidden;
+		width:100%;
+	}
+	
+	html, body{
+		width: 100%;
+	}
+	#footer{
+		margin-bottom: 0px;
+		padding-bottom:15px;
+	}
+	.hiddeninput{
+		width:0px;
+		height:0px;
+		padding:0px;
+		border:none;
+		margin:0px;
+	}
+	
+}
+
+/*
+@media only screen and (min-width: 992px) and (max-width: 1999px){ ... }
+
+
+@media only screen and (max-width: px) {
+	.five-sixths,
+	.four-fifths,
+	.four-sixths,
+	.one-fourth,
+	.one-half,
+	.one-fifth,
+	.one-sixth,
+	.one-third,
+	.three-fifths,
+	.three-fourths,
+	.three-sixths,
+	.two-fifths,
+	.two-fourths,
+	.two-sixths,
+	.two-thirds {
+		margin: 0;
+		width: 100%;
+	}
+
+	.one-half .firstcol {
+		margin-bottom: 17px;
+	}
+
+	.one-half {
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.firstcol{
+		text-align: center;
+	}
+
+	.mheader {
+		font-size: 16px;
+	}
+
+	.qheader {
+		text-align: center;
+		margin: 0 auto;
+	}
+	
+	.qdescription{
+		text-align: center;
+		margin: 0 auto;
+		float: left;
+		width: 100%;
+	}
+	
+	.netigatetextarea{
+		max-width: 100%;
+	}
+	#content{
+		width: calc(100% - 20px);
+	}
+	
+	.checkboxtable{
+		width:100%;
+	}
+	#main{
+		width:100%;
+		padding:0px;
+		border:none;
+		border-radius: 0px;
+		margin-top:0px;
+	}
+	
+	#form1{
+		overflow-x:hidden;
+		width:100%;
+	}
+	
+	html, body{
+		width: 100%;
+	}
+	#footer{
+		margin-bottom: 0px;
+		padding-bottom:15px;
+	}
+	.hiddeninput{
+		width:0px;
+		height:0px;
+		padding:0px;
+		border:none;
+		margin:0px;
+	}
+	
+}
+
+<<<<<<< Updated upstream
+*/
+=======
+/* Column Classes
+    Link: http://twitter.github.io/bootstrap/assets/css/bootstrap-responsive.css
+--------------------------------------------- */
+
+.five-sixths,
+.four-sixths,
+.one-fourth,
+.one-half,
+.one-sixth,
+.one-third,
+.three-fourths,
+.three-sixths,
+.two-fourths,
+.two-sixths,
+.two-thirds {
+	float: left;
+	margin-left: 2.564102564102564%;
+}
+
+.one-half,
+.three-sixths,
+.two-fourths {
+	width: 48.717948717948715%;
+}
+
+.one-third,
+.two-sixths {
+	width: 31.623931623931625%;
+}
+
+.four-sixths,
+.two-thirds {
+	width: 65.81196581196582%;
+}
+
+.one-fourth {
+	width: 23.076923076923077%;
+}
+
+.three-fourths {
+	width: 74.35897435897436%;
+}
+
+.one-sixth {
+	width: 14.52991452991453%;
+}
+
+.five-sixths {
+	width: 82.90598290598291%;
+}
+
+.firstcol {
+	clear: both;
+	margin-left: 0;
+}
+>>>>>>> Stashed changes
