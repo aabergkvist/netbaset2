@@ -218,8 +218,19 @@ position:fixed;
      max-height: 100%;
 }
 
+#footer {
+    font-size: 14px;
+    color: #999;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 80%;
+}
+
 @media only screen and (max-width: 1080px){
     #content {
+        width: 90%;
+    }
+    #footer {
         width: 90%;
     }
     /* tr>td.radiocol:first-child {
